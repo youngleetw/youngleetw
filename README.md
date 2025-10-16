@@ -15,6 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![](https://raw.githubusercontent.com/youngleetw/youngleetw/refs/heads/output/github-contribution-grid-snake-light.svg)
+![snake animation](https://raw.githubusercontent.com/youngleetw/youngleetw/output/dist/github-contribution-grid-snake.svg)
 
 ![](https://komarev.com/ghpvc/?username=youngleetw&color=9FC2CC&style=flat&label=+Profile+Views+👀+)
