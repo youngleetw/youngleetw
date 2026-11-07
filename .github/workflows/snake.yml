@@ -2,13 +2,17 @@ name: Generate Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Run every 6 hours
+    - cron: "17 16 * * *" # 每天一次（台灣時間 00:17），貢獻圖一天才變一次
   workflow_dispatch: # Trigger manually
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     
     # 授予 workflow 寫入儲存庫內容的權限
     permissions:
